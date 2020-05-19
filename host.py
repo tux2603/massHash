@@ -2,8 +2,6 @@ import select
 import socket
 import time
 
-TIME1970 = 2208988800
-
 host = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host.bind(("", 1337))
 host.listen(10)
